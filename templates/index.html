@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+    <main>
+        <div class="main_content">
+            <div class="grid">
+                <div class="media_sabak">
+                    <a href="#"><img src="{% static 'img/re_logo_1.png' %}" alt="logotype"></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, odio?</p>
+                </div>
+
+                <div class="img_block">
+                    <img src="{% static 'img/main_page_img.png' %}" alt="image">
+                </div>
+            </div>
+        </div>
+        <div class="menu_block">
+            <nav class="grid">
+                <ul class="menu">
+                    <li>
+                        <a href="{% url 'about' %}">
+                            <span class="icon"></span>
+                            <span class="link">о нас</span>
+                        </a>
+                    </li>
+                    <li>
+{#                        <a href="{% url 'education' %}">#}
+                            <span class="icon"></span>
+                            <span class="link">обучение</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"></span>
+                            <span class="link">пройти тест</span>
+                        </a>
+                    </li>
+                    <li>
+{#                        <a href="{% url 'more' %}">#}
+                            <span class="icon"></span>
+                            <span class="link">узнать больше</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+    {% include 'header.html' %}
+    <main class="lesson_bg">
+        <div class="grid lesson_test">
+
+            <div id="quiz">
+                <div id="quiz-header">
+                    <h1></h1>
+                    {#                    <p class="faded">A quiz about the plugin built by the plugin.</p>#}
+                </div>
+                <div id="quiz-start-screen">
+                    <p><a href="#" id="quiz-start-btn" class="quiz-button">Начать тест</a></p>
+                </div>
+            </div>
+
+
+            <ul class="list_lesson">
+                <li class="hamburger_collapsed">
+                    <div class="hamburger"></div>
+                </li>
+
+                {% for item in all_lesson %}
+                    <li><a href="{% url 'single_lesson' id=item.id %}">{{ item.name }}</a></li>
+                    {% if item.check == True %}
+                        <li><a href="{% url 'test_lesson' item.id %}">Промежуточный тест</a></li>
+                    {% endif %}
+                {% endfor %}
+
+
+            </ul>
+
+        </div>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        $('#quiz').quiz({
+            //resultsScreen: '#results-screen',
+            //counter: false,
+            //homeButton: '#custom-home',
+            counterFormat: 'Вопрос %current из %total',
+            questions: [
+                {% for item in test %}
+                    {
+                        'q': '{{ item.name }}' + '<br>' + '<img class="quiz_img" src="{{ item.image.url }}">',
+                        'q_extra': '',
+                        'options': [
+                            'Фейк',
+                            'Не Фейк'
+
+                        ],
+                        {% if item.true == True %}
+                            'correctIndex': 0,
+                        {% endif %}
+
+                        {% if item.false == True %}
+                            'correctIndex': 1,
+                        {% endif %}
+
+                        'correctResponse': "{{ item.correct }}",
+                        'incorrectResponse': "{{ item.incorrect }}"
+                    },
+                {% endfor %}
+            ]
+        });
+    </script>
+{% endblock %}
