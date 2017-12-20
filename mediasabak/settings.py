@@ -151,3 +151,5 @@ TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
 CKEDITOR_UPLOAD_PATH = '/'
 
 AUTH_USER_MODEL = 'app_models.User'
+
+# SOCIALACCOUNT_AUTO_SIGNUP = True

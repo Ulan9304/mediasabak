@@ -22,7 +22,7 @@ from mediasabak import settings
 
 urlpatterns = [
     url(r'^$', include('app_views.urls')),
-    url(r'^', include('allauth.urls'),name='auth'),
+    url(r'^accounts/', include('allauth.urls'),name='auth'),
     url(r'^jet/', include('jet.urls', 'jet')),
     url(r'^about/', AboutListView.as_view(), name='about'),
     url('admin/', admin.site.urls),
