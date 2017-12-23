@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+	<div class="uk-container uk-flex uk-flex-between uk-flex-middle">
+		<a href="#" class="logo">
+			<img src="img/logotype.svg" alt="logotype">
+		</a>
+
+		<div class="menu">
+			<button class="uk-button" type="button"><i class="zmdi zmdi-view-toc"></i></button>
+			<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 300; pos: bottom-right; mode: click">
+				<ul class="uk-nav uk-dropdown-nav">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Обучение</a></li>
+					<li><a href="#">Пройти тест</a></li>
+					<li><a href="#">Информация</a></li>
+					<li><a href="#modal-center" id="sign-up" uk-toggle>Авторизация</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="uk-container lesson-page">
+    <div class="lesson-title">
+        <a href="#"></a>
+        <h4>ИНФОРМАЦИЯ И МЕДИА</h4>
+    </div>
+
+    <div class="lesson-switcher">
+        <div class="tabs-nav" uk-switcher="animation: uk-animation-fade">
+            <button class="uk-button uk-button-default" type="button">Инфографика</button>
+            <button class="uk-button uk-button-default" type="button">Урок</button>
+            <button class="uk-button uk-button-default" type="button">Упражнения</button>
+            <button class="uk-button uk-button-default" type="button">Тест</button>
+
+            <a class="uk-button uk-button-default" href="#">Скачать PDF</a>
+            <a class="uk-button uk-button-default" href="#">Скачать WORD</a>
+        </div>
+
+        <ul class="uk-switcher tabs-content">
+            <li>
+                <div class="infographic">
+                    <iframe id="vid_frame" src="https://www.youtube.com/embed/kJQP7kiw5Fk?list=RDpapuvlVeZg8?ecver=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur,
+                sed do eiusmod.
+            </li>
+
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur,
+                sed do eiusmod.
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <div class="uk-container">
+        <div class="uk-child-width-1-5 uk-flex-middle" uk-grid>
+            <div>
+                <div>
+                    <a href="#">
+                        <img src="img/footer-logo.svg" alt="logotype" class="footer-logo">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <ul class="uk-list">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Обучение</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <ul class="uk-list">
+                        <li><a href="#">Пройти тест</a></li>
+                        <li><a href="#">Информация</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="address">
+                    <p><i class="zmdi zmdi-pin"></i>2017 Центр поддержки СМИ.
+                        г. Бишкек, ул. Горького 1Б</p>
+                </div>
+            </div>
+            <div>
+                <div class="contacts">
+                    <p><i class="zmdi zmdi-smartphone-android"></i> +996 312 53-00- 00 <br> +996 312 53-16- 39</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="modal-center" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <h4 class="uk-text-center">Авторизация</h4>
+
+        <p class="uk-text-center">Вы можете авторизоваться через одну из данных социальных сетей</p>
+
+        <ul class="uk-list uk-text-center">
+            <li>
+                <a href="#">Войти через Faceook
+                    <i class="zmdi zmdi-facebook-box"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">Войти через Vkontakte
+                    <i class="zmdi zmdi-vk"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">Войти через Twitter
+                    <i class="zmdi zmdi-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">Войти через Google
+                    <i class="zmdi zmdi-google"></i></a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@ from app_models import models
 from django.views.generic import ListView, CreateView, DetailView, TemplateView
 
 # Create your views here.
-from app_models.models import Lesson, Media
+from app_models.models import Lesson, Media, LessonCategory
 
 
 class LessonsListView(ListView):
@@ -13,24 +13,35 @@ class LessonsListView(ListView):
 
 
 class AboutListView(TemplateView):
-    template_name = 'about.html'
+    template_name = 'about-us.html'
 
 
-class MoreListView(TemplateView):
-    template_name = 'more-information.html'
+# class MoreListView(TemplateView):
+#     template_name = 'more-information.html'
 
 
-class BookListView(ListView):
-    template_name = 'books.html'
+# class BookListView(ListView):
+#     template_name = 'books.html'
 
 
-class MediaLessonListView():
-    model = Media
-    context_name = 'media_lesson'
-    template_name = 'video_lessons.html'
+# class MediaLessonListView():
+#     model = Media
+#     context_name = 'media_lesson'
+#     template_name = 'video_lessons.html'
 
 
-class LessonPageDetailView(DetailView):
+class LessonPageListView(ListView):
     model = Lesson
-    context_name = 'all_lessons'
+    context_object_name = 'all_lessons'
     template_name = 'lesson-page.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(LessonPageListView,self).get_context_data(**kwargs)
+        context['all_lessons'] = Lesson.objects.all()
+        return context
+
+
+class LessonCategoryListView(ListView):
+    model = LessonCategory
+    context_name = 'lesson_category'
+    template_name = 'category-page.html'

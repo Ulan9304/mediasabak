@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.conf.urls import url, include
 from django.conf.urls.static import static
 
-from app_views.views import AboutListView
+from app_views.views import AboutListView, LessonPageListView, LessonCategoryListView
 from mediasabak import settings
 
 urlpatterns = [
@@ -27,6 +27,8 @@ urlpatterns = [
     url(r'^about/', AboutListView.as_view(), name='about'),
     url('admin/', admin.site.urls),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+    url(r'^lesson-page/$', LessonPageListView.as_view(), name='lesson-page'),
+    url(r'^category-page/', LessonCategoryListView.as_view(), name='category-page'),
 
     # url(r'^app_views/', include('app_views.urls')),
 ]

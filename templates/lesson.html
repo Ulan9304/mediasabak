@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="uk-container lesson-page">
+    <div class="lesson-title">
+        <a href="#"></a>
+        <h4>УРОК</h4>
+    </div>
+
+    <div class="lesson-switcher">
+        <div class="tabs-nav" uk-switcher="animation: uk-animation-fade">
+            {% for i in all_lessons %}
+            <button class="uk-button uk-button-default" type="button">Урок 1{{ i.title }}</button>
+            <button class="uk-button uk-button-lesson" type="button">Урок 2</button>
+            <button class="uk-button uk-button-default" type="button">Урок 3</button>
+            <button class="uk-button uk-button-default" type="button">Урок 4</button>
+            {% endfor %}
+            <a class="uk-button uk-button-default" href="#">Скачать PDF</a>
+            <a class="uk-button uk-button-default" href="#">Скачать WORD</a>
+        </div>
+
+        <ul class="uk-switcher tabs-content">
+            <li>
+                <div class="infographic">
+                        {% for i in all_lessons %}
+                            {{ i.name }}
+                    <iframe id="vid_frame" src="https://www.youtube.com/embed/{{ i.link }}?list=RDpapuvlVeZg8?ecver=1" frameborder="0" allowfullscreen></iframe>
+                {% endfor %}
+                </div>
+            </li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur,
+                sed do eiusmod.
+            </li>
+
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur,
+                sed do eiusmod.
+            </li>
+        </ul>
+    </div>
+
+</div>
+{% endblock %}

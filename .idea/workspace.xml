@@ -2,11 +2,155 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4030d2-166e-4ffd-9660-47560b7c9d4c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/BebasBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/BebasBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/BebasBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/Material-Design-Iconic-Font.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/Material-Design-Iconic-Font.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/Material-Design-Iconic-Font.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/Material-Design-Iconic-Font.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/ProximaNovaRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/ProximaNovaRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/ProximaNovaRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/Group 1915.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/Group 1915@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category-page-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category-page-bg@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category1 link-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/devil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about-us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/category-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/fonts/Material-Design-Iconic-Font.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category1 link.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category1 minified.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/category7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/exam.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/footer-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/footer-logotype.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/index-page-bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/information.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/learning_icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/link-back.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/logo1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/logo2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/logotype.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/main-page-bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/pdf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/team.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/img/word.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/public/js/main.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/books.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/education.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/lesson_test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/links.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/more-information.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/css/jquery.quiz-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/css/libs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaBold/HelveticaBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaBold/HelveticaBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaBold/HelveticaBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaLight/HelveticaLight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaLight/HelveticaLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaLight/HelveticaLight.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaMedium/HelveticaMedium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaMedium/HelveticaMedium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaMedium/HelveticaMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaRegular/HelveticaRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaRegular/HelveticaRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/fonts/HelveticaRegular/HelveticaRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/about_bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/address.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/arrow_next_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/arrow_prev_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/books_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/books_bg_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/books_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/defaul_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/dots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/download_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/download_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/education_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/education_menu_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/help_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/icon3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/icon4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/lesson_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/lesson_bg_img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/lesson_bg_img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/link_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/link_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/link_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/location_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/logo_coursekg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/logo_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/logo_mlc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/logotyp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/logotyp2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/main_page_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/meal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/more_information.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/more_links_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/net_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/new_arrow_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/new_arrow_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/p_slider_img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/pc_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/phone_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/power_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/re_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/re_logo_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/smi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/tablet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/test1_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/test3_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/tests_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/video_bg_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/video_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/video_pc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/img/word.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/js/jquery.quiz-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/js/libs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/config.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/fonts/slick.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/fonts/slick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/fonts/slick.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/fonts/slick.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick-theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick-theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/public/slick/slick.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/single-lesson.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/video-lessons.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_views/views.py" afterPath="$PROJECT_DIR$/app_views/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasabak/settings.py" afterPath="$PROJECT_DIR$/mediasabak/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasabak/urls.py" afterPath="$PROJECT_DIR$/mediasabak/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/account/signup.html" afterPath="$PROJECT_DIR$/templates/account/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/lesson-page.html" afterPath="$PROJECT_DIR$/templates/lesson-page.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,45 +173,51 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mediasabak/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-              <folding>
-                <element signature="e#634#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/mediasabak/lib/python3.5/site-packages/allauth/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mediasabak/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="154" column="34" lean-forward="false" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+            <state relative-caret-position="522">
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/mediasabak/lib/python3.5/site-packages/allauth/account/urls.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_models/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="378">
+              <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_views/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson-page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/lesson-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="83" lean-forward="false" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,38 +225,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="846">
+              <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/account/base.html">
+      <file leaf-file-name="category-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/category-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1692">
+              <caret line="94" column="66" lean-forward="false" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
+      <file leaf-file-name="lesson.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/lesson.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/account/logout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="12" column="81" lean-forward="false" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -117,8 +257,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -140,19 +280,30 @@
         <option value="$PROJECT_DIR$/lessons/models.py" />
         <option value="$PROJECT_DIR$/app_models/views.py" />
         <option value="$PROJECT_DIR$/app_models/urls.py" />
-        <option value="$PROJECT_DIR$/app_views/urls.py" />
         <option value="$PROJECT_DIR$/app_models/admin.py" />
-        <option value="$PROJECT_DIR$/app_models/models.py" />
         <option value="$PROJECT_DIR$/templates/video-lessons.html" />
         <option value="$PROJECT_DIR$/templates/account/login.html" />
         <option value="$PROJECT_DIR$/app_models/forms.py" />
-        <option value="$PROJECT_DIR$/app_views/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/account/base.html" />
         <option value="$PROJECT_DIR$/templates/account/signup.html" />
-        <option value="$PROJECT_DIR$/mediasabak/urls.py" />
+        <option value="$PROJECT_DIR$/templates/s.html" />
+        <option value="$PROJECT_DIR$/app_models/models.py" />
         <option value="$PROJECT_DIR$/mediasabak/settings.py" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/templates/public/var/footer.html" />
+        <option value="$PROJECT_DIR$/templates/public/var/header.html" />
+        <option value="$PROJECT_DIR$/app_views/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/about-us.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/app_views/views.py" />
+        <option value="$PROJECT_DIR$/mediasabak/urls.py" />
+        <option value="$PROJECT_DIR$/templates/category-page.html" />
+        <option value="$PROJECT_DIR$/templates/lesson.html" />
+        <option value="$PROJECT_DIR$/templates/lesson-page.html" />
       </list>
     </option>
   </component>
@@ -161,6 +312,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="396" />
@@ -214,6 +368,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,55 +379,16 @@
             <path>
               <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
               <item name="mediasabak" type="462c0819:PsiDirectoryNode" />
-              <item name="mediasabak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediasabak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediasabak" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediasabak" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5.2 virtualenv at ~/.virtualenvs/mediasabak &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5.2 virtualenv at ~/.virtualenvs/mediasabak &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediasabak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5.2 virtualenv at ~/.virtualenvs/mediasabak &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="allauth" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fermanew" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -281,6 +397,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/templates/public" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,15 +462,15 @@
   <component name="ToolWindowManager">
     <frame x="396" y="125" width="1920" height="1058" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26520813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49786553" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.52561367" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21291356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49573106" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.08271078" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.47438633" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.9172892" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330076" sideWeight="0.4850587" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.330076" sideWeight="0.48292422" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -361,7 +478,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@mediasabak" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49359658" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@mediasabak" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49359658" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -369,6 +486,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -378,190 +521,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mediasabak/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-          <folding>
-            <element signature="e#309#318#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasabak/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_views/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_views/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1513756790066" expanded="true" signature="307:328" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasabak/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-          <folding>
-            <element signature="e#309#318#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasabak/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_views/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1513756790066" expanded="true" signature="307:328" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_models/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/assets/static_files/js/common.js" />
-    <entry file="file://$PROJECT_DIR$/mediasabak/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/public/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_views/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasabak/parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_models/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_views/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_models/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../all_auth_templates/django-allauth/example/example/templates/bootstrap/allauth/account/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,32 +535,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/education.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/books.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="138" column="57" lean-forward="true" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/education.html" />
+    <entry file="file://$PROJECT_DIR$/templates/books.html" />
     <entry file="file://$PROJECT_DIR$/templates/login.html" />
     <entry file="file://$PROJECT_DIR$/templates/public/account/base.html" />
-    <entry file="file://$PROJECT_DIR$/templates/more-information.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/more-information.html" />
     <entry file="file://$PROJECT_DIR$/templates/account/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -605,21 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_views/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_models/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,52 +558,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2988">
           <caret line="205" column="22" lean-forward="false" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="e#21#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/video-lessons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_views/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1513756790066" expanded="true" signature="307:328" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/lesson-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/video-lessons.html" />
     <entry file="file://$PROJECT_DIR$/templates/account/logout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,9 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,17 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,48 +619,221 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mediasabak/lib/python3.5/site-packages/allauth/account/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s.html" />
+    <entry file="file://$USER_HOME$/.virtualenvs/mediasabak/lib/python3.5/site-packages/allauth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="576">
           <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-rigger/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/public/libs/uikit.css" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/public/var/footer.html" />
+    <entry file="file://$PROJECT_DIR$/templates/public/var/header.html" />
+    <entry file="file://$PROJECT_DIR$/src/var/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/var/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_views/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasabak/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-926">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mediasabak/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="522">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/category-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="94" column="66" lean-forward="false" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/mediasabak/lib/python3.5/site-packages/allauth/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/lesson.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" column="81" lean-forward="false" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/mediasabak/lib/python3.5/site-packages/allauth/account/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/lesson-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasabak/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="154" column="34" lean-forward="false" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="15" column="83" lean-forward="false" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
           <folding />
         </state>
       </provider>

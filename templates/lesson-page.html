@@ -1,89 +1,44 @@
 {% extends 'base.html' %}
-
 {% load staticfiles %}
-
 {% block content %}
+<div class="uk-container lesson-page">
+    <div class="lesson-title">
+        <a href="#"></a>
+        <h4>ИНФОРМАЦИЯ И МЕДИА</h4>
+    </div>
 
-    {% include 'header.html' %}
-    <main class="lesson_bg">
-        <div class="grid">
-
-            <div class="lesson_container">
-                <div class="tabs-stage">
-                    <div id="tab-1">
-                        {#                        <h4>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</h4>#}
-
-                        <div class="slider">
-                            {% for item in images %}
-                                <div class="sl_slide">
-                                    <img src="{{ item.image.url }}" alt="">
-                                </div>
-                            {% endfor %}
-
-                        </div>
-                    </div>
-                    <div id="tab-2">
-                        <h4>Nurbek</h4>
-                        {{ lesson.text_type|safe }}
-                    </div>
-
-                    <div id="tab-3">
-
-                        <div class="video_lesson">
-                            <iframe id="vid_frame"
-                                    src="https://www.youtube.com/embed/{{ lesson.link }}?list=RDpapuvlVeZg8?ecver=1"
-                                    frameborder="0" allowfullscreen></iframe>
-                        </div>
-
-                    </div>
-                </div>
-
-                <ul class="tabs-nav">
-                    <li>
-                        <a href="#tab-1">
-                            <img src="{% static 'img/power_point.png' %}" alt="image">
-                        </a>
-                        <div class="help_text">
-                            <span>выберите  просмотр презентации</span>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#tab-2">
-                            <img src="{% static 'img/word.png' %}" alt="image">
-                        </a>
-                        <div class="help_text">
-                            <span>выберите  просмотр презентации</span>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#tab-3">
-                            <img src="{% static 'img/video_icon.png' %}" alt="image">
-                        </a>
-                        <div class="help_text">
-                            <span>выберите  просмотр презентации</span>
-                        </div>
-                    </li>
-                    <li>
-                        <audio controls>
-                            <source src="{{ lesson.audio.url }}" type="audio/mp3">
-                        </audio>
-                    </li>
-                </ul>
-            </div>
-
-            <ul class="list_lesson">
-                <li class="hamburger_collapsed">
-                    <div class="hamburger"></div>
-                </li>
-                {% for item in all_lesson %}
-                    <li><a href="{% url 'single_lesson' id=item.id %}">{{ item.name }}</a></li>
-                    {% if item.check == True %}
-                        <li><a href="{% url 'test_lesson' item.id %}">Промежуточный тест</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
+    <div class="lesson-switcher">
+        <div class="tabs-nav" uk-switcher="animation: uk-animation-fade">
+            <button class="uk-button uk-button-default" type="button">Инфографика</button>
+{#            <a class="uk-button uk-button-lesson" href=""></a>#}
+            <button class="uk-button uk-button-lesson" type="button">Урок</button>
+            <button class="uk-button uk-button-default" type="button">Упражнения</button>
+            <button class="uk-button uk-button-default" type="button">Тест</button>
+            <a class="uk-button uk-button-default" href="#">Скачать PDF</a>
+            <a class="uk-button uk-button-default" href="#">Скачать WORD</a>
         </div>
-    </main>
 
+        <ul class="uk-switcher tabs-content">
+            <li>
+                <div class="infographic">
+                        {% for i in all_lessons %}
+                            {{ i.name }}
+                    <iframe id="vid_frame" src="https://www.youtube.com/embed/{{ i.link }}?list=RDpapuvlVeZg8?ecver=1" frameborder="0" allowfullscreen></iframe>
+                {% endfor %}
+                </div>
+            </li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur,
+                sed do eiusmod.
+            </li>
+
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur,
+                sed do eiusmod.
+            </li>
+        </ul>
+    </div>
+
+</div>
 {% endblock %}

@@ -1,0 +1,309 @@
+@import "../libs/uikit.min.css"
+@import "_mixins.sass"
+@import "../libs/material-design-iconic-font.css"
+
+@include font(MaterializeIcons, Material-Design-Iconic-Font)
+@include font(BebasBold, BebasBold)
+@include font(ProximaRegular, ProximaNovaRegular)
+
+$dark: #414141
+$light-dark: #95989A
+$blue: #2575FC
+
+html
+  font-family: 'ProximaRegular', sans-serif
+  font-size: 14px
+
+header
+  background: #2575FC
+  height: 80px
+  .uk-container
+    padding-top: 15px
+  .logo
+    img
+      width: 147px
+  .uk-button
+    background-color: transparent
+    padding: 0
+    i
+      font-size: 34px
+      color: #fff
+  .uk-dropdown
+    background-color: #2575FC
+    -webkit-border-radius: 12px
+    -moz-border-radius: 12px
+    border-radius: 12px
+    min-width: 130px
+    padding: 15px
+  .uk-dropdown-nav
+    text-align: right
+    a
+      font-family: 'ProximaRegular', sans-serif
+      font-size: 14px
+      color: #fff
+      padding: 0
+      &:hover
+        color: #fff
+
+
+.entry-section
+  padding: 120px 0 180px 0
+  background: url('../img/Group 1915.png') center top no-repeat
+  -webkit-background-size: cover
+  background-size: cover
+  .uk-container
+    & > div
+      width: 100%
+      max-width: 470px
+      h1
+        font-family: 'BebasBold', sans-serif
+        font-size: 46px
+        color: #fff
+      p
+        font-family: 'ProximaRegular', sans-serif
+        font-size: 18px
+        color: #fff
+        margin: 0
+
+.menu-section
+  background-color: #ECECEC
+  padding: 0
+  .uk-container
+    position: relative
+    top: -80px
+  .menu-link
+    background-color: #fff
+    height: 270px
+    border-radius: 15px
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.16)
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    justify-content: center
+    align-items: center
+    text-decoration: none
+    @include transition
+    span
+      height: 110px
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      justify-content: center
+      align-items: center
+      img
+        width: 80px
+    p
+      font-size: 18px
+      color: $light-dark
+      @include transition
+    &:hover
+      margin-top: -20px
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3)
+      p
+        color: $dark
+
+footer
+  background-color: #475059
+  color: $light-dark
+  padding: 50px 0
+  font-size: 12px
+  .footer-logo
+    width: 112px
+  .uk-list
+    margin-bottom: 0
+    &>li:nth-child(n+2)
+      margin-top: 0
+    a
+      color: $light-dark
+  .address,
+  .contacts
+    p
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      margin-bottom: 0
+      i
+        margin-top: 5px
+        margin-right: 10px
+  .contacts
+    p
+      justify-content: flex-end
+
+
+
+//----------------LESSON-PAGE------------------
+
+.lesson-page
+  padding: 40px 0 160px 0
+
+.lesson-title
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  padding: 0 0 30px 150px
+  a
+    width: 10px
+    height: 30px
+    background: url('../img/link-back.svg') center no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+  h4
+    margin: 0
+    padding-left: 25px
+
+h4
+  font-family: 'ProximaRegular', sans-serif
+  font-size: 24px
+  color: $dark
+
+.lesson-switcher
+  display: flex
+  justify-content: flex-start
+  align-items: flex-start
+  .tabs-nav
+    margin-right: 20px
+    button,
+    a
+      -webkit-border-radius: 5px
+      -moz-border-radius: 5px
+      border-radius: 5px
+      width: 130px
+      padding: 0
+      border: 0
+      font-size: 14px
+      color: #fff
+      text-transform: none
+      display: block
+      height: 50px
+      margin-bottom: 12px
+    button
+      background: $blue
+    a
+      background-color: #3FCC56
+      display: flex
+      align-items: center
+      justify-content: center
+  .tabs-content
+    width: 88%
+    .infographic
+      width: 100%
+      height: 590px
+      iframe
+        width: 100%
+        height: 100%
+
+
+.uk-modal-dialog
+  width: 500px
+  -webkit-border-radius: 20px
+  -moz-border-radius: 20px
+  border-radius: 20px
+  background-color: #fff
+  padding: 60px 60px 70px 60px
+  p
+    margin-top: 0
+    color: #8C8C8C
+  .uk-list
+    li
+      -webkit-border-radius: 5px
+      -moz-border-radius: 5px
+      border-radius: 5px
+      position: relative
+      a
+        color: #fff
+        display: block
+        padding: 12px 0
+        &:hover
+          text-decoration: none
+      i
+        position: absolute
+        color: #fff
+        font-size: 20px
+        top: 50%
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        transform: translateY(-50%)
+        right: 18px
+    li:first-child
+      background-color: #3B5998
+    li:nth-child(2)
+      background-color: #45668E
+    li:nth-child(3)
+      background-color: #1DA1F2
+    li:last-child
+      background-color: #DD4B39
+
+//----------------CATEGORY-PAGE------------------
+
+.category-page
+  background: url('../img/category-page-bg.png') center top no-repeat
+  padding: 155px 0 280px 0
+  -webkit-background-size: cover
+  background-size: cover
+  .category
+    display: block
+    width: 100%
+    height: 165px
+    padding-top: 30px
+    border: 2px solid #fff
+    -webkit-border-radius: 15px
+    -moz-border-radius: 15px
+    border-radius: 15px
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+    @include transition
+    &:hover
+      text-decoration: none
+      -webkit-transform: scale(0.9)
+      -moz-transform: scale(0.9)
+      -ms-transform: scale(0.9)
+      -o-transform: scale(0.9)
+      transform: scale(0.9)
+    span
+      width: 50px
+      height: 50px
+      display: flex
+      justify-content: center
+      align-items: center
+      margin: 0 auto
+      img
+        width: 45px
+    p
+      color: #fff
+      font-size: 12px
+      padding: 0 20px
+      margin: 30px 0 0 0
+  .uk-child-width-1-4
+    & > div:nth-child(5)
+      .category
+        span
+          img
+            width: 35px
+
+
+//----------------ABOUT-PAGE------------------
+
+.about-us-page
+  background-color: #F5F5F5
+  padding: 40px 0 70px 0
+  .logotype1,
+  .logotype2
+    background-color: #fff
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-right: 30px
+  .logotype1
+    img
+      width: 350px
+  .logotype2
+    img
+      width: 130px
+    
