@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div class="category-page">
+        <div class="uk-container uk-container-small">
+            <div class="uk-child-width-1-4 uk-grid-small" uk-grid>
+                {% for i in all_lessons %}
+                    <div class="uk-text-center">
+                        <a href="{% url 'details' i.pk %}" class="category">
+                            <div>
+						<span>
+							<img src="{% static 'img/category1.svg' %}" alt="image">
+						</span>
+                                <p>{{ i.title }}</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{#<footer>#}
+{#    <div class="uk-container">#}
+{#        <div class="uk-child-width-1-5 uk-flex-middle" uk-grid>#}
+{#            <div>#}
+{#                <div>#}
+{#                    <a href="#">#}
+{#                        <img src="img/footer-logo.svg" alt="logotype" class="footer-logo">#}
+{#                    </a>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div>#}
+{#                <div>#}
+{#                    <ul class="uk-list">#}
+{#                        <li><a href="#">О нас</a></li>#}
+{#                        <li><a href="#">Обучение</a></li>#}
+{#                    </ul>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div>#}
+{#                <div>#}
+{#                    <ul class="uk-list">#}
+{#                        <li><a href="#">Пройти тест</a></li>#}
+{#                        <li><a href="#">Информация</a></li>#}
+{#                    </ul>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div>#}
+{#                <div class="address">#}
+{#                    <p><i class="zmdi zmdi-pin"></i>2017 Центр поддержки СМИ.#}
+{#                        г. Бишкек, ул. Горького 1Б</p>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div>#}
+{#                <div class="contacts">#}
+{#                    <p><i class="zmdi zmdi-smartphone-android"></i> +996 312 53-00- 00 <br> +996 312 53-16- 39</p>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</footer>#}
+{##}
+{#<div id="modal-center" class="uk-flex-top" uk-modal>#}
+{#    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">#}
+{##}
+{#        <button class="uk-modal-close-default" type="button" uk-close></button>#}
+{##}
+{#        <h4 class="uk-text-center">Авторизация</h4>#}
+{##}
+{#        <p class="uk-text-center">Вы можете авторизоваться через одну из данных социальных сетей</p>#}
+{##}
+{#        <ul class="uk-list uk-text-center">#}
+{#            <li>#}
+{#                <a href="#">Войти через Faceook#}
+{#                    <i class="zmdi zmdi-facebook-box"></i>#}
+{#                </a>#}
+{#            </li>#}
+{#            <li>#}
+{#                <a href="#">Войти через Vkontakte#}
+{#                    <i class="zmdi zmdi-vk"></i>#}
+{#                </a>#}
+{#            </li>#}
+{#            <li>#}
+{#                <a href="#">Войти через Twitter#}
+{#                    <i class="zmdi zmdi-twitter"></i>#}
+{#                </a>#}
+{#            </li>#}
+{#            <li>#}
+{#                <a href="#">Войти через Google#}
+{#                    <i class="zmdi zmdi-google"></i></a>#}
+{#            </li>#}
+{#        </ul>#}
+{##}
+{#    </div>#}
+{#</div>#}
+{##}
+{#<script src="js/main.js"></script>#}
+{#</body>#}
+{#</html>#}

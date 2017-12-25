@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div class="uk-container lesson-page">
+        <div class="lesson-title">
+            <a href="#"></a>
+            <h4>ИНФОРМАЦИЯ И МЕДИА</h4>
+        </div>
+
+        <div class="lesson-switcher">
+            <div style="width: 130px;margin-right: 20px">
+                <div class="tabs-nav" uk-switcher="animation: uk-animation-fade; connect: .uk-switcher">
+                    <button class="uk-button uk-button-default" type="button">Мультик</button>
+                    <button class="uk-button uk-button-default" type="button">Инфографика</button>
+                    <button class="uk-button uk-button-lesson" type="button">Урок</button>
+                    <button class="uk-button uk-button-default" type="button">Упражнения</button>
+                    <button class="uk-button uk-button-default" type="button">Тест</button>
+                </div>
+                <div class="tabs-nav">
+                    {% if lesson.pdf_file %}
+                        <a class="uk-button uk-button-default uk-link" href="{{ lesson.pdf_file.url }}">Скачать PDF</a>
+                    {% endif %}
+                    {% if lesson.word_file %}
+                        <a class="uk-button uk-button-default" href="{{ lesson.word_file.url }}">Скачать WORD</a>
+                    {% endif %}
+                </div>
+            </div>
+            <ul class="uk-switcher tabs-content">
+                <li>
+                    <div class="infographic">
+                        <div class="video_slide">
+                            <h1>{{ lesson.name }}</h1>
+                            <iframe id="vid_frame"
+                                    src="https://www.youtube.com/embed/{{ lesson.link2 }}"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </li>
+                {#            infograpchic#}
+                <li>
+                    <div class="infographic">
+                        <div class="video_slide">
+                            <h1>{{ lesson.name }}</h1>
+                            <iframe id="vid_frame"
+                                    src="https://www.youtube.com/embed/{{ lesson.link }}"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </li>
+                {#            infograpchic#}
+
+                <li>
+                    <h1>{{ lesson }}</h1>
+                    <div class="lesson_slider">
+                        {% for image in lesson.slider.all %}
+                            <div class="lesson_slide">
+                                <img src="{{ image.image.url }}" alt="">
+                            </div>
+                        {% endfor %}
+                    </div>
+                </li>
+
+                <li>
+
+                </li>
+
+                <li class="test_block">
+                    <div class="test_block_div">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+{% endblock %}
