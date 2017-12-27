@@ -11,7 +11,6 @@ from django.contrib.auth.models import (
 class LessonCategory(models.Model):
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
     image_field = models.ImageField(verbose_name='icon image')
-    item = models.ForeignKey('Lesson',blank=True,null=True)
 
     def __str__(self):
         return self.name
@@ -32,7 +31,6 @@ class Lesson(models.Model):
     date = models.DateTimeField("Date", auto_now_add=True, null=True, blank=True)
     pdf_file = models.FileField(verbose_name='PDF файл', blank=True)
     word_file = models.FileField(verbose_name='Word файл', blank=True)
-    # slider = models.ForeignKey(ImageSlide, blank=True, null=True)
 
     def __str__(self):
         return self.name
